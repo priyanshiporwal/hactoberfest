@@ -9,8 +9,11 @@ int diff(int a,int b)
 }
 int main()
 {
-	int a=5,b=10;
-	printf("Sum = %d",sum(a,b));
-	printf("Difference = %d",diff(a,b));
+	int a,b;
+	printf("enter two values\n");
+	scanf("%d %d",&a,&b);
+	printf("Sum = %d\n",sum(a,b));
+	printf("Difference = %d\n",diff(a,b));
 	return 0;
 }
+
